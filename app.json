@@ -1,0 +1,16 @@
+{
+  "name": "Qr Code (cm)",
+  "short_name": "Qr Code",
+  "description": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2B3BED",
+  "theme_color": "#2B3BED",
+  "icons": [
+    {
+      "src": "https://img.freepik.com/vetores-gratis/codigo-qr-de-digitalizacao-para-smartphone_23-2148628268.jpg?t=st=1722623758~exp=1722627358~hmac=9001b0b729ce42c49d9458bff29e543494373c51ca51c69a45c37c9187c4bf37&w=740",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

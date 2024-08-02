@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Dela+Gothic+One&family=Lilita+One&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&family=Rubik+Glitch&family=Rubik+Maps&family=Titan+One&display=swap');
+
+
+* {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+   
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+body {
+   
+   background-color: #2B3BED;
+   color: white;
+   
+}
+
+header {
+   
+   display: inline-block;
+   margin: 2vh;
+   
+}
+
+img {
+   
+   height: 30vh;
+   
+}
+
+section {
+   
+   text-align: center;
+   
+}
+
+input, button{
+   
+   border: none;
+   outline: none;
+   padding: 2vh;
+   border-radius: 2vh;
+   
+}
+
+button {
+   
+   background-color: limegreen;
+   color: white ;
+   
+}
+
+footer {
+   
+   
+   margin-bottom: 10vh;
+   text-align: center;
+   
+}

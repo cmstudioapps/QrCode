@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="theme-color" content="#2B3BED">
+   <title>Gerador de QrCode</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="manifest" href="app.json">
+</head>
+<body>
+   <header>
+      
+
+   <img src="banner.png" alt="banner">
+   <h3>Transforme qualquer texto <br>em qrCode.</h3>
+   <br>
+   <p>Gere um QrCode de um link ou qualquer texto e Compartilhe com</p>
+   </header>
+<br>
+   
+   <section>
+      
+   
+   <input id="texto" type="text" placeholder="Digite aqui...">
+   <button onclick="gerar()">Gerar QrCode</button>
+   
+   <br>
+   
+   <div id="qrcode">
+      
+      
+      
+   </div>
+   
+   </section>
+   
+   <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+   
+   <script src="main.js"></script>
+   
+   
+   
+     <script>
+     
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('Service Worker registrado com sucesso:', registration);
+          })
+          .catch(error => {
+            console.log('Falha ao registrar o Service Worker:', error);
+          });
+      });
+    }
+    
+  </script>
+  <br>
+  
+   <footer>
+      &copy; Caio multiversando | cm studio 
+   </footer>
+</body>
+</html>
