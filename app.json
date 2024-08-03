@@ -2,7 +2,7 @@
   "name": "Qr Code (cm)",
   "short_name": "Qr Code",
   "description": "/",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#2B3BED",
   "theme_color": "#2B3BED",
